@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Quais métodos de distribuição podem ser usados para replicar documentos de entrega do SAP ERP para o SAP EWM? (2 respostas corretas)",
+    "options": [
+      "Distribuição imediata na criação do documento",
+      "Distribuição manual",
+      "Distribuição via ações PPF",
+      "Modelo de distribuição CIF"
+    ],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Qual cenário pode ser controlado com locais de armazenagem separados para vendas e produção?",
+    "options": [
+      "Distinguir material fornecido para produção do disponível para vendas",
+      "Distinguir material em recebimento de produção vs fornecedores externos",
+      "Distinguir material ainda em processamento de entrada do que chegou ao local final",
+      "Distinguir quantidades atribuídas a um pedido de vendas"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "A que o estoque no armazém está atribuído? (2 respostas corretas)",
+    "options": ["Parte com direito à disposição", "Ponto de expedição", "Proprietário", "Recurso"],
+    "answers": [0, 2]
+  },
+  {
+    "question": "O que é necessário para realizar contagem explícita usando o mecanismo de inspeção de qualidade? (2 respostas corretas)",
+    "options": ["Procedimento de amostragem", "Regra de inspeção", "Integração QM", "Centro de trabalho"],
+    "answers": [0, 1]
+  },
+  {
+    "question": "O que você pode incluir em uma sequência de busca de tipo de depósito para retirada de estoque? (2 respostas corretas)",
+    "options": [
+      "Lista de tipos de localização",
+      "Lista de áreas de armazenagem",
+      "Lista de grupos de tipo de armazenagem",
+      "Lista de tipos de armazenagem"
+    ],
+    "answers": [0, 1]
+  },
+  {
+    "question": "No controle de armazenagem orientado a processo, para que pode ser usada a determinação baseada em regras?",
+    "options": [
+      "Determinar a localização de destino",
+      "Determinar a regra de criação do pedido de armazém",
+      "Determinar o tipo de processo de armazém",
+      "Determinar a localização de origem"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Quais ações são possíveis com base em uma ordem de serviço de valor agregado (VAS)? (3 respostas corretas)",
+    "options": [
+      "Montar um kit",
+      "Registrar o tempo necessário",
+      "Executar inspeção de qualidade",
+      "Consumir produtos auxiliares"
+    ],
+    "answers": [0, 1, 3]
+  }
+]
