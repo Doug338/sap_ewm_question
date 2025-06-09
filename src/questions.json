@@ -1,4 +1,619 @@
 [
+ {
+    "question": "O que você precisa definir para um novo tipo de entrega no SAP EWM?",
+    "options": [
+      "Uma nova categoria de documento e um novo perfil de processo",
+      "Uma nova categoria de documento e combiná-la com um tipo de documento existente",
+      "Um novo tipo de documento e uma nova categoria de documento",
+      "Um novo tipo de documento e combiná-lo com uma categoria de documento existente"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Qual é o propósito do responsável (custodian) na configuração do armazém?",
+    "options": [
+      "O responsável substitui a Unidade de Cadeia de Suprimentos anteriormente usada",
+      "O responsável possui a posse legal do estoque",
+      "O responsável processa o estoque sem transferência de propriedade",
+      "O responsável é usado para a determinação da estratégia de armazenagem"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Onde você ativa o cross-docking oportunista em um EWM descentralizado?",
+    "options": [
+      "No produto e no tipo de processo de armazém",
+      "No armazém e no tipo de documento",
+      "No armazém e no produto",
+      "No produto e no tipo de documento"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Quais são alguns requisitos para a criação automática de ondas? Obs.: Há 2 respostas corretas.",
+    "options": [
+      "Modelos de onda com uma ou mais opções estão definidos.",
+      "Uma tarefa para liberação automática está programada.",
+      "Existem condições e registros de condição.",
+      "Modelos de onda com método de liberação 'Automático' estão definidos."
+    ],
+    "answers": [2, 3]
+  },
+  {
+    "question": "O que você controla com o contexto de negócio para um código de exceção?",
+    "options": [
+      "O código de exceção interno atribuído a ele",
+      "O ambiente de trabalho onde o código de exceção pode ser usado",
+      "O processo que pode utilizar o código de exceção",
+      "Os fluxos de trabalho possíveis que podem ser acionados"
+    ],
+    "answers": [2]
+  },
+  {
+    "question": "O que você pode fazer com pontos de avaliação?",
+    "options": [
+      "Influenciar qual pedido de armazém é atribuído a um recurso",
+      "Influenciar quais itens devem ser retirados primeiro",
+      "Usá-los para medir a eficiência do seu armazém",
+      "Influenciar a sequência de busca de tipos de armazenagem, área de armazenamento e tipos de posições"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Usando o EWM incorporado, quais opções você tem para registrar a entrada de mercadorias para compras externas? (2 respostas corretas)",
+    "options": [
+      "Usar a entrega de entrada do EWM para registrar a entrada de mercadorias",
+      "Usar entrada de mercadorias síncrona onde você registra no EWM",
+      "Usar a entrega de entrada do ERP para registrar a entrada de mercadorias",
+      "Usar entrada de mercadorias síncrona onde você registra no ERP"
+    ],
+    "answers": [1, 2]
+  },
+  {
+    "question": "Seu cliente recebe material relevante para lote no armazém. Quando você deve criar um lote?",
+    "options": [
+      "Antes que a entrega de entrada seja distribuída do SAP ERP para o SAP EWM",
+      "Antes que a tarefa de armazém seja criada no SAP EWM",
+      "Antes que a entrada de mercadoria seja registrada no SAP EWM",
+      "Antes que a entrega de entrada seja criada no SAP EWM"
+    ],
+    "answers": [2]
+  },
+  {
+    "question": "Quais campos no tipo de processo de armazém são usados para determinar regras de criação de ordens de depósito (WWOCR)? (2 respostas corretas)",
+    "options": [
+      "Atividade",
+      "Indicador de determinação do tipo de processo",
+      "Área de atividade do WOCR",
+      "Processo de armazenagem"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Com o EWM descentralizado você pode pular certas categorias de documentos. Qual combinação de categorias ainda é obrigatória?",
+    "options": [
+      "Um pedido de entrega de saída e uma entrega de saída",
+      "Uma solicitação de entrega de saída e uma ordem de entrega de saída.",
+      "Um pedido de material de produção e uma transferência de estoque",
+      "Um pedido de alteração de lançamento e uma alteração de lançamento"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "O que você pode fazer com um hotspot no monitor de gerenciamento de armazém?",
+    "options": [
+      "Chamar um método para executar ações sobre o objeto selecionado",
+      "Mudar da visualização de lista para a visualização de formulário do objeto selecionado",
+      "Criar um serviço básico de medição",
+      "Chamar a interface de usuário correspondente no objeto selecionado"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Um código de exceção pode ser disparado pelo sistema ou inserido por um usuário. O que você deve atribuir a um código de exceção externo? (2 respostas corretas)",
+    "options": [
+      "Um contexto de negócio",
+      "Uma etapa de execução",
+      "Um código de exceção interno",
+      "Um fluxo de trabalho como ação subsequente"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Quais das opções a seguir são tarefas de armazém de produto durante o armazenamento com controle de armazenagem orientado por processo?",
+    "options": [
+      "As etapas de processo inicial e final",
+      "A etapa final do processo",
+      "A etapa inicial do processo",
+      "Todas as etapas do processo"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "O que é definido com o tempo de preparação na regra de criação do pedido de armazém?",
+    "options": [
+      "O tempo necessário pelo sistema para a estratégia de separação",
+      "O tempo necessário por um funcionário para preparar o processamento do pedido de armazém",
+      "O tempo necessário pela onda para o processo de criação",
+      "O tempo necessário pelo recurso até alcançar o tipo de armazenagem"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Qual parâmetro indica o tipo de movimentação de mercadoria ao definir um novo tipo de processo de armazém?",
+    "options": [
+      "Regra de criação de pedido de armazém",
+      "Indicador de determinação do tipo de processo",
+      "Processo de armazenagem",
+      "Categoria do processo de armazém"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Onde um local de armazenagem deve ser único no SAP EWM?",
+    "options": [
+      "Na área de atividade",
+      "Na seção de armazenagem",
+      "No tipo de armazenagem",
+      "No armazém"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Quais são os campos chave usados para definir um documento de entrega na customização do SAP EWM? (2 respostas corretas)",
+    "options": [
+      "Tipo de item",
+      "Categoria de item",
+      "Tipo de documento",
+      "Categoria de documento"
+    ],
+    "answers": [2, 3]
+  },
+  {
+    "question": "Seu cliente possui dois números de armazém que compartilham o mesmo pátio físico. Como você configura o pátio para habilitar a gestão de pátio?",
+    "options": [
+      "Definir um tipo de armazenagem para o pátio em cada número de armazém e conectá-los por portas",
+      "Definir um tipo de armazenagem para o pátio em ambos os números de armazém e conectá-los com um ponto de verificação comum",
+      "Definir um tipo de armazenagem para o pátio em um número de armazém e conectar com o outro por portões",
+      "Definir um tipo de armazenagem para o pátio em cada número de armazém e conectá-los com um espaço de estacionamento"
+    ],
+    "answers": [2]
+  },
+  {
+    "question": "O que pode ser usado para especificar o processo de armazenagem? (2 respostas corretas)",
+    "options": [
+      "Regra de criação de pedido de armazém",
+      "Tipo de depósito",
+      "Tipo de processo do depósito",
+      "Área de atividade"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Qual customização adicional é necessária para um novo tipo de documento EWM para um processo de entrada?",
+    "options": [
+      "Definir um tipo de item de entrega para o processo de entrada",
+      "Definir a determinação do tipo de entrega do EWM",
+      "Definir uma categoria de documento para o processo de entrada",
+      "Definir o mapeamento do tipo de documento do SAP ERP para o tipo de documento de entrega"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Na integração avançada com a produção, você pode escolher preparação por pedido único ou cruzada. Em que as quantidades podem se basear? (3 respostas corretas)",
+    "options": ["Especificações de embalagem", "Ondas", "Solicitações de material de produção", "Kanbans"],
+    "answers": [0, 2, 3]
+  },
+  {
+    "question": "O que você influência com a definição de um grupo de recursos?",
+    "options": ["Limitações do tipo de acesso a localizações do recurso", "Velocidade horizontal e vertical de um recurso", "Filas que um recurso deve processar", "Ambiente operacional do recurso"],
+    "answers": [2]
+  },
+  {
+    "question": "Qual cenário pode ser controlado com localizações de armazenagem separadas para vendas e produção?",
+    "options": ["Distinguir material fornecido para produção do material disponível para vendas", "Distinguir material em recebimento de produção vs recebimento de fornecedores externos", "Distinguir quantidades de material atribuídas a um pedido de vendas", "Distinguir material ainda em processamento de entrada daquele que já chegou ao local final"],
+    "answers": [0]
+  },
+  {
+    "question": "Qual opção você tem na atribuição de posições de armazenagem a uma área de atividade?",
+    "options": ["As posições devem ser atribuídas manualmente", "posições de diferentes tipos podem ser atribuídas à mesma área de atividade", "Uma área de atividade deve ser criada automaticamente para um tipo de depósito", "Uma posição só pode ser atribuída a uma única área de atividade"],
+    "answers": [1]
+  },
+  {
+    "question": "Quais opções padrão você tem para se comunicar com os controladores lógicos programáveis (PLC)? (2 respostas corretas)",
+    "options": ["Usar a interface ALE para enviar um IDoc para software de terceiros", "Usar um adaptador RFC (ex.: SAP Plant Connectivity)", "Integrar diretamente com o PLC usando ABAP Push Channels", "Enviar um IDoc através de uma ação do Post Processing Framework (PPF)"],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Qual estratégia de retirada de estoque pode ser realizada com especificações de embalagem ou unidade alternativa de medida (AUOM)? (2 respostas corretas)",
+    "options": ["Quantidades grandes/pequenas", "FIFO rigoroso", "Primeiras quantidades parciais", "Localização fixa"],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Quais das seguintes ações podem ser realizadas no cockpit de expedição? (2 respostas corretas)",
+    "options": ["Criar Pick HUs", "Atribuir ordens de entrega de saída e entregas de entrada a unidades de transporte", "Criar ondas e atribuir portas", "Criar e registrar unidades de transporte"],
+    "answers": [1, 3]
+  },
+  {
+    "question": "Onde você usa os Padrões de Mão de Obra Projetada (ELS)?",
+    "options": ["Para definir os tempos necessários para executar uma atividade no armazém", "Para definir a distância ideal de deslocamento de um recurso", "Para calcular a carga de trabalho ao liberar uma onda", "Para determinar o melhor recurso para uma ordem de armazém"],
+    "answers": [0]
+  },
+  {
+    "question": "Quais dos seguintes objetos você pode atribuir a um recurso? (2 respostas corretas)",
+    "options": ["Tipo de unidade de manuseio", "Grupo de recursos", "Tipo de recurso", "Tipo de acesso à localização"],
+    "answers": [1, 2]
+  },
+  {
+    "question": "Quais estoques podem ser exibidos no monitor de gerenciamento de armazém do SAP EWM? (2 respostas corretas)",
+    "options": ["Estoque em recursos", "Estoque em unidades de transporte", "Estoque reservado", "Estoque em trânsito"],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Quais das opções a seguir são papéis de tipo de armazenagem? (3 respostas corretas)",
+    "options": ["Ponto de identificação", "Centro de trabalho no grupo de área de preparação", "Desconsolidação", "Abastecimento da produção"],
+    "answers": [0, 1, 3]
+  },
+  {
+    "question": "O que uma ordem de depósito pode incluir? (2 respostas corretas)",
+    "options": ["Tarefas de armazém", "Itens de onda", "Solicitações de armazém", "Itens de inventário físico"],
+    "answers": [0, 3]
+  },
+  {
+    "question": "Qual atribuição você faz para criar etapas de processo externas no controle de armazenagem orientado por processo?",
+    "options": ["Etapa de processo externa para uma etapa interna", "Etapa de processo externa para um processo de armazenagem", "Etapa de processo externa para um tipo de armazenagem", "Etapa de processo externa para um tipo de processo de armazém"],
+    "answers": [0]
+  },
+  {
+    "question": "Usando EWM incorporado, quais opções você tem para registrar a entrada de mercadorias para compras externas? (2 respostas corretas)",
+    "options": ["Usar entrada de mercadoria síncrona registrada no EWM", "Usar a entrega de entrada do ERP para registrar a entrada", "Usar entrada de mercadoria síncrona registrada no ERP", "Usar a entrega de entrada do EWM para registrar a entrada"],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Quais objetos você pode adicionar ao cockpit de armazém? (2 respostas corretas)",
+    "options": ["Serviços básicos de medição", "Serviços de medição calculados", "Serviços de medição personalizados", "Alertas da gestão de alertas"],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Quais recursos um grupo de armazenagem oferece? (2 respostas corretas)",
+    "options": ["Atribuição como grupo intermediário de armazenagem", "Atribuição a múltiplas localizações de armazenagem", "Definição de uma divisão lógica ou física de um tipo de armazenagem", "Controle da determinação baseada em regras das etapas do processo"],
+    "answers": [1, 2]
+  },
+  {
+    "question": "O que você pode controlar com uma área de atividade? (2 respostas corretas)",
+    "options": ["A localização intermediária para controle de armazenagem orientado ao layout", "A área em que um recurso atuará no armazém", "As regras de criação de pedidos de armazém a serem usadas", "As portas que podem ser conectadas a uma área de preparação"],
+    "answers": [1, 2]
+  },
+  {
+    "question": "Você está usando integração com a produção baseada em entrega. Quais dos seguintes documentos são criados para a entrega de saída no SAP ERP para a preparação? (2 respostas corretas)",
+    "options": ["Documento de alteração de lançamento no SAP EWM quando os locais de armazenagem são atribuídos ao mesmo número de armazém", "Entrega de entrada no armazém receptor quando os locais pertencem a armazéns diferentes", "Transferência interna de estoque no EWM quando os locais são os mesmos", "Solicitação de material de produção no armazém fornecedor quando os locais são diferentes"],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Quais são as vantagens de usar um dispositivo móvel durante o inventário físico? (2 respostas corretas)",
+    "options": ["Você pode usar contagem coletiva para armazenagem em massa", "A recontagem nunca é necessária", "Existe um aplicativo SAP Fiori especial", "É opcional bloquear localizações"],
+    "answers": [0, 3]
+  },
+  {
+    "question": "Em conformidade com os princípios de núcleo limpo (clean core), agora você deve criar os fluxos de trabalho necessários. Qual das soluções SAP Signavio pode ser usada para isso?",
+    "options": ["SAP Signavio Process Intelligence", "SAP Signavio Process Insights", "SAP Signavio Process Manager", "SAP Signavio Process Governance"],
+    "answers": [2]
+  },
+  {
+    "question": "Para uma tarefa de picking, o sistema deve determinar os tipos de armazenagem dos quais remover o estoque. Como o sistema encontra a sequência de busca?",
+    "options": [
+      "Lê a combinação de número de armazém, indicador de retirada, tipo de estoque e tipo de processo, senão usa apenas o número de armazém",
+      "Usa a estratégia de acesso definida, senão usa número de armazém + indicador de retirada + tipo de processo",
+      "Lê número de armazém + indicador de retirada, senão usa número de armazém + tipo de processo",
+      "Lê uma entrada completamente qualificada, com todos os parâmetros e indicadores, senão usa a estratégia de acesso"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Para usar o Gerenciamento de Mão de Obra, qual combinação você deve ativar?",
+    "options": [
+      "Número de armazém e etapa de processo interna",
+      "Número de armazém e tipo de processo de armazém",
+      "Número de armazém e processador",
+      "Número de armazém e atividade de trabalho"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "O que você pode usar como base na análise ABC?",
+    "options": [
+      "Estoque contado no armazém",
+      "Tarefas de armazém confirmadas",
+      "Localizações ocupadas no armazém",
+      "Entregas de entrada e saída"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Como os pedidos de armazém são ordenados para atribuição automática a um recurso? (2 respostas corretas)",
+    "options": [
+      "Por prioridade de execução",
+      "Por utilização do recurso",
+      "Por modo",
+      "Por data mais tardia de início"
+    ],
+    "answers": [0, 3]
+  },
+  {
+    "question": "O que você precisa configurar antes de poder criar tarefas de armazém para um pedido de entrega de entrada ou saída? (2 respostas corretas)",
+    "options": [
+      "Tipos de processo de armazém",
+      "Determinação do tipo de processo de armazém",
+      "Indicador de controle de armazenagem ou controle de retirada",
+      "Regras de criação de pedido de armazém"
+    ],
+    "answers": [0, 1]
+  },
+  {
+    "question": "A quais dos seguintes objetos você pode atribuir etapas de processo externas? Há duas respostas corretas",
+    "options": [
+      "Tipo de item de entrega",
+      "Tipo de processo do armazém",
+      "Especificação de embalagem",
+      "Centro de trabalho"
+    ],
+    "answers": [1, 3]
+  },
+  {
+    "question": "Qual é o requisito padrão para um processo assíncrono de entrada de mercadoria no SAP EWM?",
+    "options": [
+      "Um recebimento de mercadoria esperado",
+      "Uma tarefa de armazém",
+      "Uma entrega de entrada",
+      "Uma ordem de compra ou produção"
+    ],
+    "answers": [2]
+  },
+  {
+    "question": "O que é necessário para usar a Gestão de Pátio (Yard Management)? (2 respostas corretas)",
+    "options": [
+      "Pontos de verificação",
+      "Veículos",
+      "Recursos",
+      "Portas"
+    ],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Quais informações são usadas para determinar o grupo de disponibilidade? (3 respostas corretas)",
+    "options": [
+      "Local de armazenagem",
+      "Tipo de estoque não dependente de localização",
+      "Planta",
+      "Papel do tipo de estoque"
+    ],
+    "answers": [0, 1, 2]
+  },
+  {
+    "question": "Qual das alternativas é pré-requisito para atribuir automaticamente um pedido de armazém a um res...", 
+    "options": [
+      "O tipo de recurso deve estar atribuído à fila",
+      "O pedido de armazém deve estar em uma fila atribuída ao recurso (diretamente ou por grupo de recurso)",
+      "O grupo de recurso deve estar atribuído à regra de criação do pedido",
+      "O pedido de armazém deve ser retirado da mesma área de atividade atribuída ao recurso"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Como você controla os procedimentos de inventário físico que podem ser feitos em uma parte específica do armazém?",
+    "options": [
+      "Atribuindo localizações diretamente à área de inventário físico",
+      "Definindo uma seção de armazenagem e atribuindo-a à área de inventário físico",
+      "Definindo uma fila e atribuindo-a à área de inventário físico",
+      "Definindo uma área de atividade e atribuindo-a à área de inventário físico"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "O que um usuário móvel pode fazer ao trabalhar com processamento semi-orientado por sistema?",
+    "options": [
+      "Selecionar a unidade de manuseio a ser processada",
+      "Selecionar o pedido de armazém a ser processado",
+      "Criar tarefas de armazém ad hoc",
+      "Selecionar o lote a ser processado"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Qual documento é criado no ERP em um cenário de entrega de saída direta?",
+    "options": [
+      "Entrega de saída",
+      "Pedido de entrega de entrada",
+      "Ordem de transporte",
+      "Documento de movimentação de estoque"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Qual documento pode ser referência para uma Notificação de Recebimento Esperado? (2 respostas corretas)",
+    "options": [
+      "Ordem de produção",
+      "Pedido de vendas",
+      "Pedido de compra",
+      "Entrega de entrada"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Qual é a vantagem da integração de planejamento de transporte avançada em relação a outras opções?",
+    "options": [
+      "Uma unidade de transporte cria um veículo",
+      "O planejamento de transporte sempre começa no EWM",
+      "Unidades ou veículos de transporte não são necessários",
+      "Entregas de entrada e saída não são necessárias"
+    ],
+    "answers": [1]
+  },
+  {
+    "question": "Em um EWM descentralizado, quais podem ser elementos de uma regra de inspeção? (2 respostas corretas)",
+    "options": [
+      "Centro de trabalho",
+      "Procedimento de amostragem",
+      "Propriedades",
+      "Tipo de estoque EWM"
+    ],
+    "answers": [1, 2]
+  },
+  {
+    "question": "A qual objeto você atribui o método de reabastecimento?",
+    "options": [
+      "Tipo de processo de armazém",
+      "Categoria de documento",
+      "Tipo de documento",
+      "Tipo de depósito"
+    ],
+    "answers": [3]
+  },
+  {
+    "question": "Como você pode configurar o armazenamento de produtos com alto risco de roubo em uma área segura do armazém? (3 respostas corretas)",
+    "options": [
+      "Configurar uma sequência de busca de tipo de armazenagem",
+      "Configurar uma área de preparação de materiais",
+      "Criar um novo tipo de armazenagem",
+      "Criar um novo indicador de controle de armazenagem"
+    ],
+    "answers": [0, 2, 3]
+  },
+  {
+    "question": "Quais etapas de processo podem ser usadas em um processo de saída? (2 respostas corretas)",
+    "options": [
+      "Embalar",
+      "Desconsolidação",
+      "Serviços de valor agregado",
+      "Inspeção de qualidade"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Quais parâmetros você pode usar para criar um filtro no nível de item? (3 respostas corretas)",
+    "options": [
+      "Peso máximo",
+      "Volume mínimo",
+      "Número de unidades de manuseio",
+      "Tempo de processamento"
+    ],
+    "answers": [0, 1, 3]
+  },
+  {
+    "question": "Quais das opções a seguir você pode usar para explorar APIs liberadas?",
+    "options": [
+      "SAP Business Accelerator Hub",
+      "SAP Integration Suite",
+      "SAP Application Interface Framework"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Quais das opções a seguir são tipos de dados contidos no SAP S/4HANA Cloud? (3 respostas corretas)",
+    "options": ["Mestre", "Transacional", "Configuração", "Organização"],
+    "answers": [0, 1, 2]
+  },
+  {
+    "question": "Quais das opções a seguir são características dos serviços de medição personalizados (tailored)? (2 respostas corretas)",
+    "options": [
+      "Eles usam serviços básicos para os indicadores-chave",
+      "Podem ser usados no SAP Business Warehouse",
+      "Baseiam-se em serviços de medição calculados",
+      "Podem ser exibidos no layout gráfico do armazém"
+    ],
+    "answers": [0, 3]
+  },
+  {
+    "question": "Para inspeções de qualidade no SAP EWM descentralizado com integração QM, você precisa de uma regra de inspeção e configuração no mestre de materiais. Como simplificar a criação de dados mestres?",
+    "options": [
+      "Usar amostragem por aceitação ou pré-amostragem da produção",
+      "Usar o tipo de objeto de inspeção 7",
+      "Criar a configuração no mestre de materiais e distribuí-la para gerar a regra de inspeção",
+      "crie a regra de inspeção de qualidade e distribuir para criar a configuração de inspeção no mestre do material."
+    ],
+    "answers": [2]
+  },
+  {
+    "question": "Um perfil de embalagem é usado para criar Pick-HUs. Quais opções estão disponíveis? (3 respostas corretas)",
+    "options": [
+      "Dividir uma tarefa de armazém para preencher a HU o máximo possível",
+      "Criar itens na entrega de saída para o material de embalagem",
+      "Considerar comprimento, largura e altura",
+      "Usar algoritmo simples, complexo ou BAdI",
+      "Limitar o número de itens a serem embalados na unidade de manuseio de picking"
+    ],
+    "answers": [2, 3, 4]
+  },
+  {
+    "question": "Como as ondas são criadas? (2 respostas corretas)",
+    "options": [
+      "Automaticamente quando uma ordem de entrega de saída é criada",
+      "Automaticamente quando uma tarefa de armazém é criada",
+      "Automaticamente quando uma solicitação de material de produção é criada",
+      "Manualmente durante o planejamento no cockpit de expedição"
+    ],
+    "answers": [0, 3]
+  },
+  {
+    "question": "Você manteve vários tipos de processo que devem usar a mesma sequência de busca de tipo de armazenagem. O que pode ser usado para minimizar a customização?",
+    "options": [
+      "Grupo de tipos de processo",
+      "Grupo de tipos de armazenagem",
+      "Indicador de controle de armazenagem",
+      "Grupo de tipos de estoque"
+    ],
+    "answers": [0]
+  },
+  {
+    "question": "Quais objetos no SAP EWM são usados para mapear um armazém ERP para um armazém EWM? (2 respostas corretas)",
+    "options": [
+      "Número de armazém",
+      "Sistema de negócios",
+      "Local de armazenagem",
+      "Planta"
+    ],
+    "answers": [0, 1]
+  },
+  {
+    "question": "Quais das opções a seguir são características do painel clean core? (2 respostas corretas)",
+    "options": [
+      "Clientes podem conceder acesso a parceiros",
+      "Clientes podem usar o painel nos ambientes de desenvolvimento, teste e produção",
+      "Pode ser acessado via SAP For Me",
+      "Pode ser usado em todas as edições do SAP S/4HANA Cloud"
+    ],
+    "answers": [1, 2]
+  },
+  {
+    "question": "Quais das opções a seguir são suportadas com integração avançada da produção? (2 respostas corretas)",
+    "options": ["Produção repetitiva", "Ordem de produção", "Kanban", "Ordens de processo"],
+    "answers": [1, 2]
+  },
+  {
+    "question": "Quais funções padrão pode ser executadas em segundo plano ao inserir um código de exceção em uma transação RF? (3 respostas corretas)",
+    "options": [
+      "Acionar reabastecimento",
+      "Cancelar documento de inventário físico",
+      "Gerar processo de fluxo de trabalho",
+      "Direcionar separador para outra localização"
+    ],
+    "answers": [0, 2, 3]
+  },
+  {
+    "question": "Qual é o propósito de um sistema de negócios na integração? (2 respostas corretas)",
+    "options": [
+      "Permitir mapeamento de tipo de documento e item conforme sistema origem",
+      "Separar materiais oriundos de sistemas diferentes",
+      "Está conectado a um sistema lógico, pois apenas o sistema de negócios é armazenado nas solicitações de armazém",
+      "Define os parâmetros RFC para integração"
+    ],
+    "answers": [0, 2]
+  },
+  {
+    "question": "Quais são os campos chave usados para definir um documento de entrega na customização do SAP EWM? (2 respostas corretas)",
+    "options": ["Tipo de documento", "Tipo de item", "Categoria de documento", "Categoria de item"],
+    "answers": [0, 2]
+  },
   {
     "question": "Quais métodos de distribuição podem ser usados para replicar documentos de entrega do SAP ERP para o SAP EWM? (2 respostas corretas)",
     "options": [
@@ -58,5 +673,5 @@
       "Consumir produtos auxiliares"
     ],
     "answers": [0, 1, 3]
-  }
+  } 
 ]
