@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
-import questionsData from "./questions.json";
+import questions from "./questions.json";
 import "./index.css";
 
 function App() {
+  const [quizSelected, setQuizSelected] = useState(null);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedOptions, setSelectedOptions] = useState([]);
   const [history, setHistory] = useState([]);
@@ -11,8 +12,9 @@ function App() {
   const [answered, setAnswered] = useState(false);
   const [quizFinished, setQuizFinished] = useState(false);
 
+  const questionsData = quizSelected === 1 ? questions.quiz1 : questions.quiz2;
   const question = questionsData[currentQuestion];
-  const isMultiSelect = question.answers.length > 1;
+  const isMultiSelect = question?.answers.length > 1;
 
   useEffect(() => {
     document.body.className = isDarkMode ? "dark" : "light";
@@ -67,6 +69,7 @@ function App() {
     setHistory([]);
     setAnswered(false);
     setQuizFinished(false);
+    setQuizSelected(null);
   };
 
   const exportToCSV = () => {
@@ -99,21 +102,54 @@ function App() {
   ).length;
   const incorrect = total - correct;
 
+  if (quizSelected === null) {
+    return (
+      <div className="min-h-screen p-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+        <header className="flex justify-between items-center mb-6">
+          <h1 className="text-3xl font-bold">Simulado SAP EWM</h1>
+          <button
+            onClick={() => setIsDarkMode(!isDarkMode)}
+            className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
+          >
+            Alternar Tema
+          </button>
+        </header>
+        <div className="max-w-xl mx-auto text-center">
+          <h2 className="text-xl mb-4">Escolha o quiz desejado:</h2>
+          <div className="flex justify-center space-x-4">
+            <button
+              onClick={() => setQuizSelected(1)}
+              className="px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600"
+            >
+              Quiz 01
+            </button>
+            <button
+              onClick={() => setQuizSelected(2)}
+              className="px-6 py-3 bg-purple-500 text-white rounded hover:bg-purple-600"
+            >
+              Quiz 02
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
-    <div className={`min-h-screen p-4 sm:p-6 ${isDarkMode ? "dark bg-gray-900 text-white" : "bg-white text-gray-900"}`}>
-      <header className="flex flex-col sm:flex-row items-center justify-between mb-6 gap-4">
-        <h1 className="text-2xl sm:text-3xl font-bold text-center sm:text-left">Simulado SAP EWM</h1>
+    <div className={`min-h-screen p-6 ${isDarkMode ? "dark bg-gray-900 text-white" : "bg-white text-gray-900"}`}>
+      <header className="flex items-center justify-between mb-6">
+        <h1 className="text-3xl font-bold">Simulado SAP EWM</h1>
         <button
           onClick={() => setIsDarkMode(!isDarkMode)}
-          className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700 w-full sm:w-auto"
+          className="px-4 py-2 rounded bg-blue-600 text-white hover:bg-blue-700"
         >
           Alternar Tema
         </button>
       </header>
 
       {!quizFinished ? (
-        <div className="w-full max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 sm:p-6">
-          <h2 className="text-lg sm:text-xl font-semibold mb-4">
+        <div className="max-w-3xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6">
+          <h2 className="text-xl font-semibold mb-4">
             Pergunta {currentQuestion + 1}: {question.question}
             {isMultiSelect && " (Selecione todas as corretas)"}
           </h2>
@@ -147,7 +183,7 @@ function App() {
               );
             })}
           </ul>
-          <div className="mt-6 flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4">
+          <div className="mt-6 flex space-x-4 flex-wrap">
             <button
               onClick={handleNext}
               disabled={!answered}
@@ -165,17 +201,17 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="max-w-2xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-4 sm:p-6 text-center">
+        <div className="max-w-2xl mx-auto bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 text-center">
           <h2 className="text-2xl font-bold mb-4">Resultado Final</h2>
           <p className="mb-2 text-lg">Você respondeu {total} perguntas.</p>
           <p className="text-green-600 font-semibold">✔️ {correct} acertos ({((correct / total) * 100).toFixed(2)}%)</p>
           <p className="text-red-600 font-semibold mb-4">❌ {incorrect} erros ({(100 - (correct / total) * 100).toFixed(2)}%)</p>
-          <div className="flex flex-col sm:flex-row justify-center gap-4 mb-6">
+          <div className="flex justify-center space-x-4 mb-6">
             <button
               onClick={handleRestart}
               className="px-4 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
             >
-              Recomeçar Quiz
+              Voltar para Seleção de Quiz
             </button>
             <button
               onClick={exportToCSV}

@@ -1,4 +1,5 @@
-[
+{
+  "quiz1": [
  {
     "question": "O que você precisa definir para um novo tipo de entrega no SAP EWM?",
     "options": [
@@ -674,4 +675,832 @@
     ],
     "answers": [0, 1, 3]
   } 
-]
+  ],
+
+ "quiz2": [
+    {
+      "question": "Os seguintes atributos estão disponíveis para modelos de onda:",
+      "options": [
+        "Wave Lot",
+        "Método de liberação",
+        "Caixa de ondas",
+        "Categoria de onda"
+      ],
+      "answers": [1, 3]
+    },
+    {
+      "question": "Qual técnica utiliza os dados mestres de materiais e localização para transferir os dados para o sistema EWM?",
+      "options": [
+        "IDOC",
+        "BAdI",
+        "BAPI",
+        "Interface principal do APO"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Exemplos de categorias de processos de depósito são:",
+      "options": [
+        "Remoção de estoque",
+        "Publicando alteração",
+        "Armazenar",
+        "Check-in",
+        "Embalagem"
+      ],
+      "answers": [0, 1, 2]
+    },
+    {
+      "question": "No MFS, o armazém a ser controlado é mapeado por meio dos seguintes componentes:",
+      "options": [
+        "Canal de comunicação",
+        "Ponto lógico programável",
+        "Canal Transportador",
+        "Ponto de comunicação"
+      ],
+      "answers": [0, 3]
+    },
+    {
+      "question": "Qual é o documento que inicia o processo de saída no sistema EWM?",
+      "options": [
+        "Documento material",
+        "Requisito de transferência",
+        "Solicitação de entrega de saída",
+        "Documento de entrega de saída no ERP"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais são os campos do cadastro de produtos do depósito que desempenham um papel central no reabastecimento de posições de armazenamento?",
+      "options": [
+        "Quantidade mínima de estoque",
+        "EOQ",
+        "Controle de Tipo de depósito",
+        "Quantidade de resbastecimento",
+        "Quantidade máxima de estoque"
+      ],
+      "answers": [0, 3, 4]
+    },
+    {
+      "question": "Em Serviços de Medição e Warehouse Cockpit, qual frase está correta em relação a um serviço de medição personalizado?",
+      "options": [
+        "Você conecta serviços de medição de sinal personalizados em uma fórmula complexa",
+        "Você conecta vários serviços de medições personalizados em uma fórmula complexa",
+        "Você conecta vários serviços de medições personalizados em uma fórmula complexa",
+        "Você atribui uma variante de seleção a um serviço de medição básico para especificar o índice que deseja ver"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "O sistema usa os seguintes critérios para determinar automaticamente a quantidade dos respectivos produtos auxiliares que devem ser lançados:",
+      "options": [
+        "A confirmação de status para um pedido VAS",
+        "Determinação da data de envio",
+        "A confirmação da quantidade para uma atividade VAS",
+        "Alocação de compartimentos de armazenamento",
+        "A confirmação da atividade do VAS"
+      ],
+      "answers": [0, 2, 4]
+    },
+    {
+      "question": "Selecione as visualizações do mestre de produtos do depósito:",
+      "options": [
+        "Propriedades",
+        "Embalagem",
+        "Encaixe",
+        "Dados do armazém",
+        "Armazenar"
+      ],
+      "answers": [2, 3]
+    },
+    {
+      "question": "O EWM pode ser usado com as seguintes versões:",
+      "options": [
+        "Do SAP R/3 3.0F em diante com Service Pack 06",
+        "Do SAP R/3 4.6C em diante com Service Pack 06.",
+        "Somente SAP ECC 6.0 e posteriores.",
+        "Somente SAP ECC 5.0 e posteriores."
+      ],
+      "answers": [1]
+
+    },
+    {
+      "question": "O número máximo de caracteres em uma coordenada de bin EWM é:",
+      "options": ["18", "12", "15", "20", "10"],
+      "answers": [0]
+    },
+    {
+      "question": "Selecione as afirmações abaixo que são características precisas dos dados mestres da posição de armazenamento EWM.",
+      "options": [
+        "Eles são identificados por uma coordenada de bin de 18 caracteres",
+        "Os compartimentos podem ter coordenadas geográficas que o sistema EWM pode usar para calcular distâncias de viagem",
+        "Eles são identificados por uma coordenada de compartimento de 10 caracteres.",
+        "A coordenada do compartimento deve ser única dentro do depósito",
+        "A coordenada do compartimento deve ser única dentro do Tipo de depósito"
+      ],
+      "answers": [0, 1, 3]
+    },
+    {
+      "question": "Quais são os dois tipos de tarefas de depósito?",
+      "options": [
+        "Tarefas de localização",
+        "Tarefas do produto",
+        "Tarefas de transferência",
+        "Tarefas de movimentação de estoque",
+        "Tarefas de HU"
+      ],
+      "answers": [1, 4]
+    },
+    {
+      "question": "Qual dos seguintes itens não faz parte dos Elementos Estruturais do Armazém?",
+      "options": [
+        "Área de atividade",
+        "posição de armazenamento",
+        "Tipo de depósito",
+        "Yeard"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais são algumas das características do QIE?",
+      "options": [
+        "O QIE pode ser executado em modo descentralizado",
+        "O QIE suporta a função de contagem no EWM",
+        "QIE é um componente do EWM.",
+        "Vários tipos de objetos de inspeção foram predefinidos pela SAP para uso no EWM"
+      ],
+      "answers": [0, 1, 3]
+    },
+    {
+      "question": "Quais dados mestres devem ser criados no EWM para realizar o empacotamento automático?",
+      "options": [
+        "Documento de embalagem automática",
+        "Especificação de embalagem",
+        "Instruções de embalagem",
+        "Formato de embalagem mestre"
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "Quais são os dois tipos de etiquetas em uso hoje em RFID?",
+      "options": ["ativo", "com fio", "cpu-direct", "passiva"],
+      "answers": [0, 3]
+    },
+    {
+      "question": "Qual documento é utilizado para executar a movimentação de mercadorias no EWM?",
+      "options": [
+        "tarefa de depósito",
+        "pedido de depósito",
+        "solicitação de depósito",
+        "ordem de transferência"
+      ],
+      "answers": [0]
+    },
+    {
+      "question": "A qual unidade organizacional a Unidade de Cadeia de Suprimentos está atribuída?",
+      "options": [
+        "Área de Atividade",
+        "Número do depósito EWM",
+        "Tipo de depósito",
+        "Plantar"
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "Quais dos seguintes são exemplos de documentos de solicitação de depósito?",
+      "options": [
+        "Solicitação de entrega de saída",
+        "Tarefa de armazém",
+        "Pedido de entrega de saída",
+        "Entrega de entrada",
+        "Publicando solicitação de alteração"
+      ],
+      "answers": [2, 3]
+    },
+    {
+      "question": "O PPF consiste nos seguintes componentes:",
+      "options": [
+        "Item de ação",
+        "Definição de ação",
+        "Cabeçalho de ação",
+        "Perfil de ação",
+        "Lista de ações"
+      ],
+      "answers": [1, 3, 4]
+    },
+    {
+      "question": "A tecla de função RF F8 é usada para qual função?",
+      "options": ["Lista", "Mais", "Voltar", "Mensagem completa"],
+      "answers": [0]
+    },
+    {
+      "question": "O EWM usa qual tipo de documento para diferenciar que uma entrega de entrada do EWM ocorre da produção?",
+      "options": [
+        "Processo de entrada da produção",
+        "Entrega de saída da produção",
+        "Entrega de entrada do armazém",
+        "Entrega de entrada da produção"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais das seguintes funções são fornecidas pela Gestão do Trabalho?",
+      "options": [
+        "Avaliação da taxa de pagamento do depósito",
+        "Desempenho dos funcionários",
+        "Registro de trabalho indireto",
+        "Criação de cargas de trabalho planejadas e executadas",
+        "Definindo padrões de trabalho de engenharia"
+      ],
+      "answers": [1, 2, 3, 4]
+    },
+    {
+      "question": "O sistema utiliza os seguintes critérios para determinar automaticamente a quantidade dos respectivos produtos auxiliares a serem lançados:",
+      "options": [
+        "Alocação de compartimentos de armazenamento",
+        "Determinação da data de envio",
+        "A confirmação da atividade do VAS",
+        "A confirmação de status para um pedido VAS",
+        "A confirmação de quantidade para uma atividade VAS"
+      ],
+      "answers": [2, 3, 4]
+    },
+    {
+      "question": "No sistema EWM, quais campos são usados para mapear o armazém do ERP para o armazém do EWM?",
+      "options": [
+        "Número do depósito ERP",
+        "Plantar",
+        "Local de armazenamento",
+        "Área MRP",
+        "Sistema de negócios"
+      ],
+      "answers": [0, 4]
+    },
+    {
+      "question": "O Indicador de Controle de Armazenamento usado para determinar o Tipo de depósito é obtido a partir de...",
+      "options": [
+        "Tabela de configuração",
+        "Mestre de produtos do armazém",
+        "Documento de entrega de entrada",
+        "Tipo de depósito"
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "Qual documento no EWM serve como referência para as tarefas de depósito que movimentam os produtos recebidos para suas posições de armazenamento em depósito?",
+      "options": [
+        "Documento de pedido de depósito",
+        "Documento de ordem de transferência",
+        "Documento de entrega de entrada",
+        "Documento de notificação de entrega de entrada"
+      ],
+      "answers": [2]
+    },
+    {
+      "question": "Em Gestão de Mão de Obra, qual documento contém todos os dados relevantes que podem ser usados para comparar os tempos planejados e reais?",
+      "options": [
+        "Serviços de medição personalizados",
+        "Carga de trabalho executada",
+        "Documento de desempenho",
+        "Carga de trabalho planejada",
+        "Entrega de entrada"
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "Quais das seguintes opções são exemplos de funções/processos internos de Gestão de Tempo de Serviço (EWM)?",
+      "options": [
+        "Gerenciamento de Tarefas e Recursos",
+        "YARD.",
+        "Inspeção de Qualidade",
+        "Serviços de Valor Agregado"
+      ],
+      "answers": [1, 2, 3]
+    },
+    {
+      "question": "Quais são os documentos criados na Gestão de Mão de Obra que formam a base para o relatório da utilização da mão de obra?",
+      "options": [
+        "Documento de carga de trabalho estimada",
+        "Documento de carga de trabalho real",
+        "Documento de carga de trabalho executado.",
+        "Documento de desempenho",
+        "Documento de carga de trabalho planejada"
+      ],
+      "answers": [2, 3, 4]
+    },
+    {
+      "question": "Na função RF padrão, quais afirmações estão corretas?",
+      "options": [
+        "O recurso processa uma tarefa de warehouse de uma fila",
+        "A mesma fila é processada até ficar vazia.",
+        "A próxima fila é processada de acordo com a sequência de filas definida",
+        "A tarefa de warehouse subsequente vem de outra fila, com base na sequência do tipo de fila definida"
+      ],
+      "answers": [1, 2]
+    },
+    {
+      "question": "Qual técnica utiliza os dados mestres de materiais e localização para transferir os dados para o sistema EWM?",
+      "options": [
+        "Interface principal do APO",
+        "IDOC",
+        "BADIA",
+        "BATISMO"
+      ],
+      "answers": [0]
+    },
+    {
+      "question": "Quais são as duas formas de contagem?",
+      "options": [
+        "Direto e Indireto",
+        "Contagem cíclica e contínua",
+        "Interno e externo",
+        "Implícito e Explícito"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais tipos predefinidos de tarefas de depósito o SAP Extended Warehouse Management (SAP EWM) oferece?",
+      "options": [
+        "Unidade de manuseio",
+        "Reabastecimento",
+        "Produto",
+        "Recurso"
+      ],
+      "answers": [0, 2]
+    },
+    {
+      "question": "A partir de qual documento EWM o documento de entrega de saída EWM é criado?",
+      "options": [
+        "Solicitação de entrega de saída",
+        "Pedido de depósito",
+        "Pedido de venda",
+        "Pedido de entrega de saída"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Com funcionalidades RF padrão, transações de execução de trabalho para os seguintes processos de depósito:",
+      "options": [
+        "Retornar",
+        "Armazenar",
+        "Atracação",
+        "Colheita",
+        "Carregando"
+      ],
+      "answers": [1, 3, 4]
+    },
+    {
+      "question": "O ajuste de slots é usado para determinar os seguintes indicadores para o Putaway ideal:",
+      "options": [
+        "Indicador de Área de armazenagem",
+        "Indicador de contagem cíclica",
+        "Indicador de controle de arrumação"
+      ],
+      "answers": [0, 2]
+    },
+    {
+      "question": "Cada cliente em um servidor SAP recebe um nome exclusivo, usado nas comunicações ALE. Qual é o nome do campo?",
+      "options": [
+        "ID do servidor",
+        "Servidor Lógico",
+        "ID do sistema do cliente",
+        "Sistema Lógico"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais das seguintes atividades são consideradas atividades de depósito?",
+      "options": [
+        "desmantelamento",
+        "picking",
+        "postando alterações",
+        "Armazenar",
+        "transferência de estoque dentro do armazém"
+      ],
+      "answers": [0, 1, 2, 3, 4]
+    },
+    {
+      "question": "Na Atribuição de Pedidos de Armazém à Fila, quando o sistema cria uma tarefa de armazém (TA), ele busca uma fila apropriada para atribuir a ela, com base nos seguintes parâmetros de TA.",
+      "options": [
+        "Área de atividade do lixo",
+        "Área de atividade de destino",
+        "Tipo de acesso ao pátio",
+        "Área de atividade de origem"
+      ],
+      "answers": [1, 3]
+    },
+    {
+      "question": "As informações do cabeçalho do documento são definidas no sistema EWM por uma combinação de quais dois códigos?",
+      "options": [
+        "Tipo de documento",
+        "Categoria do documento",
+        "Categoria de linha de programação",
+        "Perfil de status",
+        "Categoria do item"
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "O Warehouse Cockpit foi criado como uma ferramenta para qual aplicação de Gestão de Tempo de Trabalho (EWM)?",
+      "options": [
+        "Encaixe",
+        "Inventário Físico",
+        "Motor de inspeção de qualidade",
+        "Gestão do Trabalho"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Ao gerar uma entrega de entrada EWM manualmente sem um modelo, ou seja, sem um recebimento de mercadorias previsto, você deve garantir que os dados na entrega de entrada sejam validados. Onde você pode usar a implementação padrão do Business Add-In (BAdI)?",
+      "options": [
+        "SCEP/EX_ERP_PROD",
+        "SCWM/EX_EWM_PROD",
+        "SCWM/EX_ERP_PROD",
+        "SCWM/FX_EWM_PROD"
+      ],
+      "answers": [2]
+    },
+    {
+      "question": "Quais componentes SAP podem ser usados para realizar o agendamento de entregas?",
+      "options": [
+        "Vendas e Distribuição no SAP ERP",
+        "SAP APO Global disponível para prometer",
+        "SAP CRM",
+        "EWM"
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "O EWM pode ser implantado da seguinte forma:",
+      "options": [
+        "como um componente de um ambiente de servidor SAP SCM 5.0/SCM 2007",
+        "seja como um componente do ambiente de servidor SAP SCM 5.0/SCM 2007 ou como um complemento para um ambiente de servidor SAP ERP",
+        "somente em um ambiente de servidor autônomo e descentralizado",
+        "somente no ambiente do servidor SAP SCM."
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "Quais parâmetros de armazenamento o processo de slotting pode determinar?",
+      "options": [
+        "Área de armazenagem",
+        "Tipo de posição",
+        "Tipo de atividade",
+        "Área de atividade"
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "Quais dos seguintes são exemplos de tipos de processamento PPF suportados pelo Smart Forms?",
+      "options": [
+        "Fax",
+        "Imprimir",
+        "Criação de entrega",
+        "Fluxo de trabalho",
+        "Correspondência"
+      ],
+      "answers": [0, 1, 4]
+    },
+    {
+      "question": "Em que nível são especificados os tipos de reabastecimento no EWM?",
+      "options": [
+        "Regra de criação de pedido de depósito",
+        "Tipo de depósito",
+        "Armazém",
+        "Área de armazenagem",
+        "Tipo de processo de armazém"
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "A tecla de função RF F6 é usada para qual função?",
+      "options": [
+        "Mais",
+        "Lista",
+        "Voltar",
+        "Claro/limpar"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Em que nível são especificados os tipos de reabastecimento no EWM?",
+      "options": [
+        "Área de armazenagem",
+        "Armazém",
+        "Tipo de processo de armazém",
+        "Tipo de depósito"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais estruturas são possíveis em Yard?",
+      "options": [
+        "Pontos de verificação",
+        "Portas",
+        "Vagas de estacionamento",
+        "Unidades de Transporte",
+        "Veículos"
+      ],
+      "answers": [0, 1, 2]
+    },
+    {
+      "question": "Quais são as formas de controle de armazenamento suportadas pelo EWM?",
+      "options": [
+        "Orientado para layout",
+        "Orientado a processos",
+        "FIFO",
+        "Tipo de depósito",
+        "Gerenciado por HU"
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "Os WOCRs são determinados por qual dos seguintes fatores?",
+      "options": [
+        "Tipo de depósito",
+        "Tipo de atividade",
+        "Tipo de posição",
+        "Área de atividade",
+        "Área de armazenagem"
+      ],
+      "answers": [1, 3]
+    },
+    {
+      "question": "Com o ciclo de controle, você define o tipo de preparação de material para cada material. Selecione o tipo de preparação de material.",
+      "options": [
+        "Unidade de Transporte",
+        "Ponto de embarque",
+        "Escolha as peças",
+        "Peças de ordem de liberação",
+        "Peças de caixa"
+      ],
+      "answers": [2, 3, 4]
+    },
+    {
+      "question": "Quais dos seguintes são documentos criados pelo EWM no processo de recebimento de mercadorias?",
+      "options": [
+        "Ordem de compra",
+        "Notificação de entrega de entrada",
+        "Solicitação de entrega de entrada",
+        "Entrega de entrada"
+      ],
+      "answers": [1, 3]
+    },
+    {
+      "question": "Que tipos de dados o processo de alocação de estoque pode usar para determinar os parâmetros de controle de armazenamento?",
+      "options": [
+        "Previsões/requisitos de demanda",
+        "Quantidades de compartimentos de armazenamento",
+        "Dados do produto",
+        "Área de armazenagem",
+        "Dados de embalagem"
+      ],
+      "answers": [0, 2, 4]
+    },
+    {
+      "question": "Exemplos de categorias de processos de depósito são:",
+      "options": [
+        "Arrumar",
+        "Check-in",
+        "Remoção de estoque",
+        "Mudança de publicação",
+        "Embalagem"
+      ],
+      "answers": [0, 2, 3]
+    },
+    {
+      "question": "Centros de trabalho podem ser usados nos seguintes processos.",
+      "options": [
+        "Gestão de pátios",
+        "Inspeção de qualidade",
+        "Contagem",
+        "RFID",
+        "Embalagem"
+      ],
+      "answers": [1, 2, 4]
+    },
+    {
+      "question": "Quais opções estão disponíveis para criar inventários físicos no EWM?",
+      "options": [
+        "Inventário direcionado de bin fixo",
+        "Inventário físico específico do produto",
+        "Contagem cíclica",
+        "Inventário específico do Tipo de depósito",
+        "Inventário específico do compartimento de armazenamento"
+      ],
+      "answers": [1, 4]
+    },
+	{
+      "question": "Qual componente SAP suporta o processamento RFID no EWM?",
+      "options": [
+        "RFID automático (ARFID)",
+        "Identificação Automática de Entrada (AII)",
+        "Identificação de ID Ativa (AII)",
+        "Infraestrutura de Auto-Id (AII)"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais dos seguintes são tipos de reposição?",
+      "options": [
+        "Reabastecimento do tipo de depósito",
+        "Reposição automática",
+        "Reabastecimento planejado",
+        "Reabastecimento de lixeira fixa",
+        "Reposição relacionada ao pedido"
+      ],
+      "answers": [1, 2, 4]
+    },
+    {
+      "question": "O perfil de classificação para classificação de tarefas em pedidos de depósito pode ter, no máximo, quantos campos de classificação?",
+      "options": [
+        "10",
+        "20",
+        "15",
+        "5",
+        "30"
+      ],
+      "answers": [2]
+    },
+    {
+      "question": "Quais campos do sistema ERP são usados para determinar o número do depósito \"intermediário\" nos documentos de entrega?",
+      "options": [
+        "Condição de armazenamento",
+        "Condições de envio",
+        "Local de armazenamento",
+        "Área MRP",
+        "Plantar"
+      ],
+      "answers": [2, 4]
+    },
+    {
+      "question": "Quais das seguintes opções são exemplos de etapas do processo de entrada?",
+      "options": [
+        "VAS",
+        "Desconsolidação",
+        "picking",
+        "Classificação",
+        "Descarregamento"
+      ],
+      "answers": [1, 3, 4]
+    },
+    {
+      "question": "Quais dados no sistema SAP ERP acionam o processamento de recebimento de mercadorias no EWM?",
+      "options": [
+        "Publicando alterações",
+        "Criação do documento de entrega de entrada",
+        "A ordem de transferência.",
+        "O requisito de transferência."
+      ],
+      "answers": [1]
+    },
+    {
+      "question": "Que tipos de dados de EWM podem ser exibidos usando o monitor de armazém?",
+      "options": [
+        "Dados mestres de localização EWM",
+        "Dados relacionados ao processo",
+        "Alertas",
+        "Dados mestres de produtos de depósito",
+        "Documentos EWM"
+      ],
+      "answers": [1, 2, 4]
+    },
+    {
+      "question": "A seguir, são apresentados os componentes estruturais de uma especificação de embalagem.",
+      "options": [
+        "Nível",
+        "Número do produto",
+        "Cabeçalho",
+        "Conteúdo",
+        "Tipo de item"
+      ],
+      "answers": [0, 2, 3]
+    },
+    {
+      "question": "Quantas seções de tela compõem o monitor do armazém?",
+      "options": [
+        "quatro",
+        "um",
+        "dois",
+        "três"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "A quais objetos você pode atribuir uma porta de armazém?",
+      "options": [
+        "Posição de armazenamento",
+        "Yard",
+        "Área de armazenagem",
+        "Número do depósito"
+      ],
+      "answers": [0, 3]
+    },
+    {
+      "question": "A quais objetos você pode atribuir uma porta de armazém?",
+      "options": [
+        "Número do Depósito",
+        "Posição de armazenamento",
+        "Yard",
+        "Area de armazenamento"
+      ],
+      "answers": [0, 1]
+    },
+    {
+      "question": "Quais dos seguintes perfis podem ser usados para criar um WOCR?",
+      "options": [
+        "Perfil de armazenamento HU",
+        "Filtro de itens",
+        "Filtro de tipo de depósito",
+        "Perfil de embalagem",
+        "Filtro de subtotal"
+      ],
+      "answers": [1, 3, 4]
+    },
+    {
+      "question": "Qual dos seguintes tipos de documento EWM padrão para publicação de alterações é?",
+      "options": [
+        "IDR",
+        "IDNÂ",
+        "DE",
+        "TWPR",
+        "ORDEM"
+      ],
+      "answers": [3]
+    },
+    {
+      "question": "Quais são os três tipos de procedimentos de inventário físico?",
+      "options": [
+        "RF direcionado",
+        "Contagem cíclica",
+        "Contínuo",
+        "Periódico",
+        "Contagem de compartimentos fixa"
+      ],
+      "answers": [1, 2, 3]
+    },
+    {
+      "question": "Quais unidades organizacionais devem ser atribuídas a cada registro mestre de produto do depósito?",
+      "options": [
+        "Local de armazenamento",
+        "Ponto de embarque",
+        "Parte com direito a dispor",
+        "Plantar",
+        "Número do depósito EWM"
+      ],
+      "answers": [2, 4]
+    },
+    {
+      "question": "Qual processo é usado para realocar o estoque para seu local ideal no armazém?",
+      "options": [
+        "Reabastecimento",
+        "Retirada Direta",
+        "Rearranjo",
+        "Encaixe"
+      ],
+      "answers": [2]
+    },
+    {
+      "question": "Qual das seguintes ferramentas você pode usar para exibir o saldo de estoque de um produto em posiçãoes de armazenamento?",
+      "options": [
+        "Cabine de comando do armazém",
+        "Estrutura de RF",
+        "Relatório de visão geral de ações",
+        "Monitor de Armazém",
+        "Estrutura gráfica fácil (EGF)"
+      ],
+      "answers": [1, 3]
+    },
+    {
+      "question": "A seguir estão alguns exemplos de procedimentos de inventário físico contínuo:",
+      "options": [
+        "Verificação de estoque zero",
+        "Contagem de HU",
+        "Verificação de estoque baixo",
+        "Inventário físico de depósito",
+        "Ad hoc"
+      ],
+      "answers": [0, 2, 3, 4]
+    },
+    {
+      "question": "Qual das seguintes frases é verdadeira sobre o cross-docking de transporte (TCD)?",
+      "options": [
+        "No cross-docking não planejado, você define na Personalização como o processo de cross-docking deve prosseguir",
+        "Em uma cadeia de suprimentos no transporte cross-docking, o destino não pode ser localizado domesticamente",
+        "O cross-docking de transporte não suporta devoluções",
+        "Você não pode usar o TCD para transportar HUs para seu próprio depósito final."
+      ],
+      "answers": [0, 2]
+    },
+    {
+      "question": "Quais campos são usados para determinar o grupo de disponibilidade?",
+      "options": [
+        "Plantar",
+        "Número do depósito",
+        "Tipo de depósito",
+        "Local de armazenamento",
+        "Número do sistema lógico"
+      ],
+      "answers": [0, 3, 4]
+    }
+  ]
+}
