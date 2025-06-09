@@ -121,13 +121,13 @@ function App() {
               onClick={() => setQuizSelected(1)}
               className="px-6 py-3 bg-green-500 text-white rounded hover:bg-green-600"
             >
-              Quiz 01
+              SAP EWM EXAME 01
             </button>
             <button
               onClick={() => setQuizSelected(2)}
               className="px-6 py-3 bg-purple-500 text-white rounded hover:bg-purple-600"
             >
-              Quiz 02
+              SAP EWM EXAME 02
             </button>
           </div>
         </div>
@@ -197,6 +197,12 @@ function App() {
               className="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 disabled:opacity-50"
             >
               Exportar CSV
+            </button>
+            <button
+              onClick={handleRestart}
+              className="px-4 py-2 bg-gray-400 text-white rounded hover:bg-gray-500"
+            >
+              Voltar para Seleção de Quiz
             </button>
           </div>
         </div>
