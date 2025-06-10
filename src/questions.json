@@ -522,7 +522,7 @@
       "Baseiam-se em serviços de medição calculados",
       "Podem ser exibidos no layout gráfico do armazém"
     ],
-    "answers": [0, 3]
+    "answers": [0, 2]
   },
   {
     "question": "Para inspeções de qualidade no SAP EWM descentralizado com integração QM, você precisa de uma regra de inspeção e configuração no mestre de materiais. Como simplificar a criação de dados mestres?",
