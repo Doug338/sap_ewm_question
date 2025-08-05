@@ -689,20 +689,21 @@
       "answers": [1, 3]
     },
     {
-      "question": "Qual técnica utiliza os dados mestres de materiais e localização para transferir os dados para o sistema EWM?",
+      "question": "Para quais processos é possível ciar uma ordem de etrega direta? Observação há 3 respostas corretas",
       "options": [
-        "IDOC",
-        "BAdI",
-        "BAPI",
-        "Interface principal do APO"
+        "Preparação para Kanban",
+        "Emissão para centro de custo",
+        "Reabastecimento",
+        "Sucateamento",
+        "Vendas diretas"
       ],
       "answers": [3]
     },
     {
       "question": "Exemplos de categorias de processos de depósito são:",
       "options": [
-        "Remoção de estoque",
-        "Publicando alteração",
+        "Saída de estoque",
+        "Publicação de alteração",
         "Armazenar",
         "Check-in",
         "Embalagem"
@@ -806,7 +807,7 @@
         "Tarefas do produto",
         "Tarefas de transferência",
         "Tarefas de movimentação de estoque",
-        "Tarefas de HU"
+        "Tarefas de UC"
       ],
       "answers": [1, 4]
     },
@@ -870,7 +871,7 @@
       "options": [
         "Solicitação de entrega de saída",
         "Tarefa de armazém",
-        "Pedido de entrega de saída",
+        "Ordem de entrega de saída",
         "Entrega de entrada",
         "Publicando solicitação de alteração"
       ],
@@ -914,11 +915,11 @@
       "answers": [1, 2, 3, 4]
     },
     {
-      "question": "O sistema utiliza os seguintes critérios para determinar automaticamente a quantidade dos respectivos produtos auxiliares a serem lançados:",
+      "question": "quais são as características da verificação antecipada de capacidade? há 2 resposta correrta para esta pergunta:",
       "options": [
-        "Alocação de compartimentos de armazenamento",
-        "Determinação da data de envio",
-        "A confirmação da atividade do VAS",
+        "Só está disponivel ao trabalhar com dispositivos móveis",
+        "É feito duarante o processo de armazenamento",
+        "Acontece durante a criação da tarefa de deposito",
         "A confirmação de status para um pedido VAS",
         "A confirmação de quantidade para uma atividade VAS"
       ],
