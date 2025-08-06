@@ -697,7 +697,7 @@
         "Sucateamento",
         "Vendas diretas"
       ],
-      "answers": [3]
+      "answers": [1,3,4]
     },
     {
       "question": "Exemplos de categorias de processos de depósito são:",
@@ -920,10 +920,10 @@
         "Só está disponivel ao trabalhar com dispositivos móveis",
         "É feito duarante o processo de armazenamento",
         "Acontece durante a criação da tarefa de deposito",
-        "A confirmação de status para um pedido VAS",
-        "A confirmação de quantidade para uma atividade VAS"
+        "Baseam-se nas capacidades dos tipos de bin",
+        "É Verificado na confirmação da tarefa do depósito"
       ],
-      "answers": [2, 3, 4]
+      "answers": [2, 3,]
     },
     {
       "question": "No sistema EWM, quais campos são usados para mapear o armazém do ERP para o armazém do EWM?",
