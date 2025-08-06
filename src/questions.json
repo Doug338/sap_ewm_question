@@ -923,7 +923,7 @@
         "Baseam-se nas capacidades dos tipos de bin",
         "É Verificado na confirmação da tarefa do depósito"
       ],
-      "answers": [2, 3,]
+      "answers": [2, 3]
     },
     {
       "question": "No sistema EWM, quais campos são usados para mapear o armazém do ERP para o armazém do EWM?",
