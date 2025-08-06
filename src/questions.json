@@ -93,12 +93,12 @@
   {
     "question": "Com o EWM descentralizado você pode pular certas categorias de documentos. Qual combinação de categorias ainda é obrigatória?",
     "options": [
-      "Um pedido de entrega de saída e uma entrega de saída",
+      "Uma ordem de entrega de saída e uma entrega de saída",
       "Uma solicitação de entrega de saída e uma ordem de entrega de saída.",
       "Um pedido de material de produção e uma transferência de estoque",
       "Um pedido de alteração de lançamento e uma alteração de lançamento"
     ],
-    "answers": [1]
+    "answers": [0]
   },
   {
     "question": "O que você pode fazer com um hotspot no monitor de gerenciamento de armazém?",
