@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/sap_ewm_question/static/css/main.cf16b0f2.css",
-    "main.js": "/sap_ewm_question/static/js/main.20f9e363.js",
+    "main.js": "/sap_ewm_question/static/js/main.b5dceb11.js",
     "static/js/453.4279bf1e.chunk.js": "/sap_ewm_question/static/js/453.4279bf1e.chunk.js",
     "index.html": "/sap_ewm_question/index.html",
     "main.cf16b0f2.css.map": "/sap_ewm_question/static/css/main.cf16b0f2.css.map",
-    "main.20f9e363.js.map": "/sap_ewm_question/static/js/main.20f9e363.js.map",
+    "main.b5dceb11.js.map": "/sap_ewm_question/static/js/main.b5dceb11.js.map",
     "453.4279bf1e.chunk.js.map": "/sap_ewm_question/static/js/453.4279bf1e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf16b0f2.css",
-    "static/js/main.20f9e363.js"
+    "static/js/main.b5dceb11.js"
   ]
 }
