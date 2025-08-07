@@ -24,11 +24,11 @@
     "question": "Onde você ativa o cross-docking oportunista em um EWM descentralizado?",
     "options": [
       "No produto e no tipo de processo de armazém",
-      "No armazém e no tipo de documento",
-      "No armazém e no produto",
+      "No depósito e no tipo de documento",
+      "No depósito e no produto",
       "No produto e no tipo de documento"
     ],
-    "answers": [0]
+    "answers": [2]
   },
   {
     "question": "Quais são alguns requisitos para a criação automática de ondas? Obs.: Há 2 respostas corretas.",
@@ -108,7 +108,7 @@
       "Criar um serviço básico de medição",
       "Chamar a interface de usuário correspondente no objeto selecionado"
     ],
-    "answers": [0]
+    "answers": [3]
   },
   {
     "question": "Um código de exceção pode ser disparado pelo sistema ou inserido por um usuário. O que você deve atribuir a um código de exceção externo? (2 respostas corretas)",
@@ -448,7 +448,7 @@
       "Unidades ou veículos de transporte não são necessários",
       "Entregas de entrada e saída não são necessárias"
     ],
-    "answers": [1]
+    "answers": [2]
   },
   {
     "question": "Em um EWM descentralizado, quais podem ser elementos de uma regra de inspeção? (2 respostas corretas)",
@@ -522,7 +522,7 @@
       "Baseiam-se em serviços de medição calculados",
       "Podem ser exibidos no layout gráfico do armazém"
     ],
-    "answers": [0, 2]
+    "answers": [0, 3]
   },
   {
     "question": "Para inspeções de qualidade no SAP EWM descentralizado com integração QM, você precisa de uma regra de inspeção e configuração no mestre de materiais. Como simplificar a criação de dados mestres?",
